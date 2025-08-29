@@ -351,4 +351,10 @@ $(document).ready(function() {
         $(this).parent().toggleClass('open');
     });
 
+    $('.postgraduate-admission-block-title').click(function() {
+        var curBlock = $(this).parent();
+        curBlock.toggleClass('open');
+        curBlock.find('.postgraduate-admission-block-content').slideToggle();
+    });
+
 });

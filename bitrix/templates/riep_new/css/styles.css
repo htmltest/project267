@@ -1314,3 +1314,252 @@ footer {background:#003558}
     .add-edu-feedback {margin:20px 0 0 0; padding:20px 0 0 0; border-left:none; border-top:1px solid #C8CED0}
     .add-edu-feedback-btn {display:block}
 }
+
+.postgraduate-sections {margin:30px -5px 0 -5px; display:flex}
+.postgraduate-sections a {width:100%; flex-grow:1; margin:0 5px; min-height:148px; border:2px solid #44AADC; color:#44AADC; display:flex; flex-direction:column; justify-content:space-between; padding:24px; font-weight:500; font-size:14px; line-height:1.5em; text-transform:uppercase; text-decoration:none; transition:background 0.2s, color 0.2s}
+.postgraduate-sections a:hover {background:#002b5d; color:#FFFFFF}
+.postgraduate-sections a svg {min-width:24px; max-width:24px; min-height:18px; max-height:18px; fill:#44AADC; transition:fill 0.2s}
+.postgraduate-sections a:hover svg {fill:#FFFFFF}
+
+@media screen and (max-width:1169px) {
+    .postgraduate-sections {margin:20px 0 0 0; display:block}
+    .postgraduate-sections a {margin:10px 0 0 0; min-height:0; padding:18px; flex-direction:row; align-items:center}
+    .postgraduate-sections a:first-child {margin:0}
+}
+
+.postgraduate-sections-video {margin:60px 0 0 0; position:relative; padding:40.91% 0 0 0}
+.postgraduate-sections-video iframe {position:absolute; left:0; top:0; width:100%; height:100%}
+
+.postgraduate-admission-sections {margin:30px -5px 0 -5px; display:flex}
+.postgraduate-admission-sections a {width:100%; flex-grow:1; margin:0 5px; min-height:172px; border:2px solid #44AADC; color:#44AADC; display:flex; flex-direction:column; justify-content:space-between; padding:36px; font-weight:500; font-size:14px; line-height:1.5em; text-transform:uppercase; text-decoration:none; transition:background 0.2s, color 0.2s}
+.postgraduate-admission-sections a:hover {background:#002b5d; color:#FFFFFF}
+.postgraduate-admission-sections a svg {min-width:24px; max-width:24px; min-height:18px; max-height:18px; fill:#44AADC; transition:fill 0.2s}
+.postgraduate-admission-sections a:hover svg {fill:#FFFFFF}
+
+@media screen and (max-width:1169px) {
+    .postgraduate-admission-sections {margin:20px -5px 0 -5px}
+    .postgraduate-admission-sections a {min-height:162px; padding:18px}
+}
+
+.postgraduate-admission-blocks {margin:80px 0 0 0; border-bottom:1px solid #EFEFEF}
+h2+.postgraduate-admission-blocks {margin:30px 0 0 0}
+.postgraduate-admission-block {border-top:1px solid #EFEFEF}
+.postgraduate-admission-block-title {display:flex; align-items:flex-start; padding:18px 0; cursor:pointer; font-weight:normal; font-size:18px; line-height:1.5em; color:#002B5D; transition:color 0.2s}
+.postgraduate-admission-block-title strong {min-width:32px; max-width:32px; height:32px; display:flex; align-items:center; justify-content:center; background:#F2F5F5; border-radius:50%; transition:background 0.2s, transform 0.2s}
+.postgraduate-admission-block-title:hover strong {background:#002B5D}
+.postgraduate-admission-block.open .postgraduate-admission-block-title strong {background:#002B5D; transform:rotate(-180deg)}
+.postgraduate-admission-block-title svg {width:24px; height:24px; fill:#002B5D; transition:fill 0.2s}
+.postgraduate-admission-block-title:hover svg {fill:#FFFFFF}
+.postgraduate-admission-block.open .postgraduate-admission-block-title svg {fill:#FFFFFF}
+.postgraduate-admission-block-title span {margin:2.5px 0 2.5px 20px}
+.postgraduate-admission-block-content {display:none; padding:0 0 20px 0}
+.postgraduate-admission-block-content *:first-child {margin-top:0}
+.postgraduate-admission-block-content *:last-child {margin-bottom:0}
+
+@media screen and (max-width:1169px) {
+    .postgraduate-admission-block-title span {margin:5px 0 0 20px}
+}
+
+.postgraduate-admission-block-link {display:flex}
+.postgraduate-admission-block-link+.postgraduate-admission-block-link {margin:10px 0 0 0}
+.postgraduate-admission-block-link a {display:flex; align-items:flex-start; color:#44AADC; transition:color 0.2s; text-decoration:none; font-weight:500; font-size:14px; line-height:1em; text-transform:uppercase}
+.postgraduate-admission-block-link a:hover {color:#002B5D}
+.postgraduate-admission-block-link a svg {min-width:24px; max-width:24px; height:24px; margin:0 10px 0 0; fill:#44AADC; transition:fill 0.2s}
+.postgraduate-admission-block-link a:hover svg {fill:#002B5D}
+.postgraduate-admission-block-link a span {padding:4px 0}
+
+@media screen and (max-width:1169px) {
+    .postgraduate-admission-block-link a {line-height:1.4em}
+    .postgraduate-admission-block-link a svg {margin:0 24px 0 4px}
+    .postgraduate-admission-block-link a span {padding:2px 0 0 0}
+}
+
+.postgraduate-admission-price {margin:30px 0 0 0; position:relative; overflow:hidden}
+.postgraduate-admission-price-inner {margin:0 -2.5px; display:flex; border-bottom:1px solid #EFEFEF}
+.postgraduate-admission-price-item {width:100%; flex-grow:1}
+.postgraduate-admission-price-item-title {min-height:26px; font-weight:500; font-size:10px; line-height:1.3em; letter-spacing:0.1em; text-transform:uppercase; color:#8C8C91; padding:0 2.5px 10px 2.5px}
+.postgraduate-admission-price-item-value {display:flex; align-items:center; min-height:67px; padding:10px 2.5px; border-top:1px solid #EFEFEF; font-size:15px; line-height:1.5em; font-weight:normal; color:#000000}
+.postgraduate-admission-price-item-center {text-align:center}
+.postgraduate-admission-price-item-center .postgraduate-admission-price-item-value {justify-content:center}
+
+@media screen and (max-width:1169px) {
+    .postgraduate-admission-price {margin:20px 0 0 0}
+    .postgraduate-admission-price-inner {margin:0; display:block; border-bottom:none}
+    .postgraduate-admission-price-item {border-top:1px solid #EFEFEF; padding:15px 0 0 0; margin:15px 0 0 0}
+    .postgraduate-admission-price-item:first-child {margin:0}
+    .postgraduate-admission-price-item-title {min-height:0; padding:0}
+    .postgraduate-admission-price-item-title br {display:none}
+    .postgraduate-admission-price-item-value {display:block; min-height:0; padding:5px 0 0 0; border-top:none}
+    .postgraduate-admission-price-item-center {text-align:left}
+}
+
+.postgraduate-admission-descr {margin:30px 0 0 0; font-size:15px; line-height:1.5em; font-weight:300; color:#000000}
+.postgraduate-admission-descr p {margin:10px 0 0 0; padding:0}
+.postgraduate-admission-descr strong {font-weight:normal}
+
+@media screen and (max-width:1169px) {
+    .postgraduate-admission-descr {margin:20px 0 0 0}
+}
+
+.postgraduate-admission-programms {margin:10px -5px 0 -5px; display:flex}
+.postgraduate-admission-programms a {width:100%; flex-grow:1; margin:0 5px; min-height:172px; border:2px solid #44AADC; color:#44AADC; display:flex; flex-direction:column; justify-content:space-between; padding:36px; font-weight:500; font-size:14px; line-height:1.5em; text-transform:uppercase; text-decoration:none; transition:background 0.2s, color 0.2s}
+.postgraduate-admission-programms a:hover {background:#002b5d; color:#FFFFFF}
+.postgraduate-admission-programms a svg {min-width:24px; max-width:24px; min-height:18px; max-height:18px; fill:#44AADC; transition:fill 0.2s}
+.postgraduate-admission-programms a:hover svg {fill:#FFFFFF}
+
+@media screen and (max-width:1169px) {
+    .postgraduate-admission-programms {margin:20px 0 0 0; display:block}
+    .postgraduate-admission-programms a {margin:10px 0 0 0; min-height:82px; padding:18px; flex-direction:row; align-items:flex-start}
+    .postgraduate-admission-programms a:first-child {margin:0}
+}
+
+.postgraduate-text {margin:60px 0 0 0; font-weight:300; font-size:15px; line-height:1.5em; color:#000000}
+.postgraduate-text p > a,
+.postgraduate-text li > a {color:#002B5D; text-decoration:none; font-weight:normal}
+.postgraduate-text p > a:hover,
+.postgraduate-text li > a:hover {color:#8a1f1b}
+.postgraduate-text h2 {margin:80px 0 20px 0; font:500 24px/1.5em GothamPro, sans-serif; color:#000000; text-transform:none; letter-spacing:0}
+.postgraduate-text h2:first-child {margin-top:0}
+.postgraduate-text p {margin:15px 0}
+.postgraduate-text ul {margin:30px 0; padding:0}
+.postgraduate-text ul li {margin:15px 0; padding:0 0 0 34px}
+.postgraduate-text ul li::before {content:"—"; top:0; width:auto; height:auto; background:none; border-radius:0; color:#8C8C91}
+.postgraduate-text ol {margin:30px 0; padding:0}
+.postgraduate-text ol li {margin:15px 0; padding:0 0 0 34px}
+.postgraduate-text ol li::before {color:#8C8C91; font-weight:300}
+.postgraduate-text ol li:nth-child(n + 10) {padding:0 0 0 34px}
+.postgraduate-text ol li:nth-child(n + 20) {padding:0 0 0 34px}
+.postgraduate-text-header {display:flex; align-items:flex-start; margin:80px 0 20px 0}
+.postgraduate-text-header h2 {margin:0; flex-grow:1}
+.postgraduate-text-header a {margin:0 0 0 30px; display:flex; align-items:center; justify-content:center; padding:12px 19px; border:1px solid #44AADC; font-weight:500; font-size:14px; line-height:1em; text-transform:uppercase; transition:background 0.2s, color 0.2s, border-color 0.2s; color:#44AADC; text-decoration:none}
+.postgraduate-text-header a:hover {background:#002b5d; border-color:#002b5d; color:#FFFFFF}
+.postgraduate-text-header a svg {min-width:24px; max-width:24px; height:24px; fill:#44AADC; margin:0 10px 0 0; transition:fill 0.2s}
+.postgraduate-text-header a:hover svg {fill:#FFFFFF}
+
+@media screen and (max-width:1169px) {
+    .postgraduate-text h2 {margin:60px 0 20px 0}
+    .postgraduate-text ul {margin:20px 0}
+    .postgraduate-text ol {margin:20px 0}
+    .postgraduate-text-header {display:block; margin:60px 0 20px 0}
+    .postgraduate-text-header a {margin:20px 0 0 0}
+}
+
+.postgraduate-contacts {margin:80px 0 0 0; display:flex; padding:30px; justify-content:space-between; background:rgba(68, 170, 220, 0.1)}
+.postgraduate-contacts-title {font-weight:500; font-size:24px; line-height:1em}
+.postgraduate-contacts-address {margin:20px 0 0 0; font-size:20px; line-height:1.5em; font-weight:normal}
+.postgraduate-contacts-block {margin:10px 0 0 0; display:flex; font-weight:300; font-size:15px; line-height:1.5em; color:#000000}
+.postgraduate-contacts-block a {color:#000000; text-decoration:none}
+.postgraduate-contacts-block:first-child {margin:0}
+.postgraduate-contacts-block-title {min-width:55px; margin:0 10px 0 0}
+.postgraduate-contacts-row {margin:10px 0 0 0}
+.postgraduate-contacts-row:first-child {margin:0}
+
+@media screen and (max-width:1169px) {
+    .postgraduate-contacts {margin:60px 0 0 0; display:block; padding:20px}
+    .postgraduate-contacts-address {font-size:16px}
+    .postgraduate-contacts-content {margin:20px 0 0 0}
+}
+
+.postgraduate-admission-block-content ul {margin-left:52px}
+.postgraduate-admission-block-content ol {margin-left:52px}
+
+@media screen and (max-width:1169px) {
+    .postgraduate-admission-block-content ul {margin-left:0}
+    .postgraduate-admission-block-content ol {margin-left:0}
+}
+
+.postgraduate-attachments {margin:30px 0}
+.postgraduate-attachments-headers {display:flex; justify-content:space-between; font-weight:500; font-size:10px; line-height:1.3em; letter-spacing:0.1em; text-transform:uppercase; color:#8C8C91}
+.postgraduate-attachments-header:last-child {min-width:245px; text-align:center}
+.postgraduate-attachments-table {display:flex; margin:10px 0 0 0; border-top:1px solid #EFEFEF; border-bottom:1px solid #EFEFEF; align-items:center; font-weight:normal; font-size:15px; line-height:1.5em; color:#000000}
+.postgraduate-attachments-table-title {min-width:225px; max-width:225px; padding:20px 0}
+.postgraduate-attachments-table-groups {flex-grow:1; margin:0 0 0 20px; border-left:1px solid #EFEFEF}
+.postgraduate-attachments-table-group {display:flex; align-items:center; border-top:1px solid #EFEFEF}
+.postgraduate-attachments-table-group:first-child {border-top:none}
+.postgraduate-attachments-table-group-title {padding:20px; flex-grow:1}
+.postgraduate-attachments-table-group-price {min-width:245px; max-width:245px; padding:20px 0; text-align:center}
+.postgraduate-attachments-table-subgroups {min-width:490px; max-width:490px}
+.postgraduate-attachments-table-subgroups .postgraduate-attachments-table-group-title {padding-left:0}
+.postgraduate-attachments-header-mobile {display:none}
+
+@media screen and (max-width:1169px) {
+    .postgraduate-attachments {margin:20px 0}
+    .postgraduate-attachments-headers {display:block}
+    .postgraduate-attachments-header:last-child {display:none}
+    .postgraduate-attachments-table {display:block; border-top:none; border-bottom:none}
+    .postgraduate-attachments-table-title {min-width:0; max-width:none; padding:0}
+    .postgraduate-attachments-table-groups {margin:10px 0 0 0; padding:0 0 0 20px; font-weight:300}
+    .postgraduate-attachments-table-group {margin:20px 0 0 0; display:block; border-top:none}
+    .postgraduate-attachments-table-group:first-child {margin:0}
+    .postgraduate-attachments-table-group-title {padding:0}
+    .postgraduate-attachments-header-mobile {display:block; margin:0 0 5px 0; font-weight:500; font-size:10px; line-height:1.3em; letter-spacing:0.1em; text-transform:uppercase; color:#8C8C91}
+    .postgraduate-attachments-table-group-price {min-width:0; max-width:none; padding:0; text-align:left; margin:10px 0 0 0; font-weight:500}
+    .postgraduate-attachments-table-subgroups {min-width:0; max-width:none; margin:10px 0 0 0; border-left:1px solid #EFEFEF; padding:0 0 0 20px}
+    .postgraduate-attachments-table-subgroups .postgraduate-attachments-table-group {margin:0; padding:10px 0}
+}
+
+.postgraduate-deadlines {margin:30px 0 0 0}
+.postgraduate-deadlines-headers {display:flex; justify-content:flex-end; font-weight:500; font-size:10px; line-height:1.3em; letter-spacing:0.1em; text-transform:uppercase; color:#8C8C91; padding:0 0 10px 0; border-bottom:1px solid #EFEFEF}
+.postgraduate-deadlines-header {min-width:240px}
+.postgraduate-deadlines-row {border-bottom:1px solid #EFEFEF; padding:20px 0; display:flex}
+.postgraduate-deadlines-row-title {flex-grow:1; font-weight:normal; font-size:15px; line-height:1.5em; color:#000000}
+.postgraduate-deadlines-row-dates {margin:0 0 0 20px; min-width:480px; max-width:480px; display:flex; justify-content:flex-end}
+.postgraduate-deadlines-row-date {min-width:50%; max-width:50%}
+.postgraduate-deadlines-row-date-day {font-weight:300; font-size:15px; line-height:1.5em; color:#000000}
+.postgraduate-deadlines-row-date-time {margin:2px 0 0 0; font-weight:300; font-size:12px; line-height:1.5em; color:rgba(0, 0, 0, 0.5)}
+.postgraduate-deadlines-notice {margin:10px 0 0 0; font-weight:300; font-size:12px; line-height:1.5em; color:rgba(0, 0, 0, 0.5)}
+.postgraduate-deadlines-header-mobile {display:none}
+
+@media screen and (max-width:1169px) {
+    .postgraduate-deadlines {margin:20px 0 0 0; border-top:1px solid #EFEFEF}
+    .postgraduate-deadlines-headers {display:none}
+    .postgraduate-deadlines-row {display:block; padding:15px 0}
+    .postgraduate-deadlines-row-dates {margin:15px 0 0 0; min-width:0; max-width:none}
+    .postgraduate-deadlines-row-date {min-width:50%; max-width:50%; border-left:1px solid #EFEFEF; padding:0 0 0 10px}
+    .postgraduate-deadlines-row-date:first-child {border-left:none; padding:0 10px 0 0}
+    .postgraduate-deadlines-header-mobile {display:block; font-weight:500; font-size:10px; line-height:1.3em; letter-spacing:0.1em; padding:0 0 5px 0; text-transform:uppercase; color:#8C8C91}
+}
+
+.postgraduate-rules {margin:40px 0 0 0}
+.postgraduate-rules-headers {display:flex; justify-content:flex-end; font-weight:500; font-size:10px; line-height:1.3em; letter-spacing:0.1em; text-transform:uppercase; color:#8C8C91; padding:0 0 10px 0; border-bottom:1px solid #EFEFEF}
+.postgraduate-rules-header:nth-child(1) {width:100%}
+.postgraduate-rules-header:nth-child(2) {min-width:240px; max-width:240px}
+.postgraduate-rules-header:nth-child(3) {min-width:115px; max-width:115px}
+.postgraduate-rules-header:nth-child(4) {min-width:115px; max-width:115px; margin:0 0 0 10px}
+.postgraduate-rules-row {display:flex; border-bottom:1px solid #EFEFEF; font-weight:300; font-size:15px; line-height:1.5em; color:#000000; padding:5px 0}
+.postgraduate-rules-row-2 {align-items:center}
+.postgraduate-rules-row-title {width:100%; padding:0 20px 0 0; font-weight:normal}
+.postgraduate-rules-header-mobile {display:none}
+.postgraduate-rules-row-group {display:flex; align-items:center; border-top:1px solid #EFEFEF; padding:5px 0}
+.postgraduate-rules-row-group:first-child,
+.postgraduate-rules-header-mobile+.postgraduate-rules-row-group {border-top:none; padding-top:0}
+.postgraduate-rules-row-group:last-child {padding-bottom:0}
+.postgraduate-rules-row-group-title {min-width:230px; max-width:230px}
+.postgraduate-rules-row-group-value {min-width:115px; max-width:115px; margin:0 0 0 10px; padding:0 0 0 10px; border-left:1px solid #EFEFEF; display:flex; align-items:center; min-height:46px}
+.postgraduate-rules-notice {margin:10px 0 0 0; font-weight:300; font-size:12px; line-height:1.5em; color:rgba(0, 0, 0, 0.5); max-width:620px}
+
+@media screen and (max-width:1169px) {
+    .postgraduate-rules {margin:20px 0 0 0}
+    .postgraduate-rules-headers {display:block; padding:0; border-bottom:none}
+    .postgraduate-rules-header:nth-child(n + 2) {display:none}
+    .postgraduate-rules-row {display:block; border-bottom:none; margin:10px 0 0 0; padding:0}
+    .postgraduate-rules-row-title {padding:0}
+    .postgraduate-rules-row-2 .postgraduate-rules-row-title {padding:0}
+    .postgraduate-rules-row-title br {display:none}
+    .postgraduate-rules-row-groups {margin:10px 0 0 0; border-left:1px solid #EFEFEF; padding:0 0 0 20px}
+    .postgraduate-rules-header-mobile {display:block; font-weight:500; font-size:10px; line-height:1.3em; letter-spacing:0.1em; text-transform:uppercase; color:#8C8C91; padding:0 0 10px 0}
+    .postgraduate-rules-row-group {flex-wrap:wrap; margin:20px 0 0 0; border-top:none}
+    .postgraduate-rules-row-group:first-child,
+    .postgraduate-rules-header-mobile+.postgraduate-rules-row-group {margin:0}
+    .postgraduate-rules-row-group-title {min-width:100%; max-width:100%; padding:0 0 10px 0}
+    .postgraduate-rules-row-group-value {min-width:50%; max-width:50%; padding:0 10px 0 0; font-weight:500; margin:0; border-left:none; display:block; min-height:0}
+    .postgraduate-rules-row-group-value+.postgraduate-rules-row-group-value {padding:0 0 0 10px; border-left:1px solid #EFEFEF}
+}
+
+.postgraduate-btns {margin:40px 0 0 0; display:flex; justify-content:space-between}
+.postgraduate-btns a {width:auto; padding:0 20px}
+
+@media screen and (max-width:1169px) {
+    .postgraduate-btns {display:block}
+    .postgraduate-btns a {display:block; margin:20px 0 0 0}
+}
