@@ -1315,6 +1315,10 @@ footer {background:#003558}
     .add-edu-feedback-btn {display:block}
 }
 
+.content-postgraduate {color:#666666}
+.content-postgraduate strong,
+.content-postgraduate b {color:#000000}
+
 .postgraduate-sections {margin:30px -5px 0 -5px; display:flex}
 .postgraduate-sections a {width:100%; flex-grow:1; margin:0 5px; min-height:148px; border:2px solid #44AADC; color:#44AADC; display:flex; flex-direction:column; justify-content:space-between; padding:24px; font-weight:500; font-size:14px; line-height:1.5em; text-transform:uppercase; text-decoration:none; transition:background 0.2s, color 0.2s}
 .postgraduate-sections a:hover {background:#002b5d; color:#FFFFFF}
@@ -1393,7 +1397,7 @@ h2+.postgraduate-admission-blocks {margin:30px 0 0 0}
     .postgraduate-admission-price-item-center {text-align:left}
 }
 
-.postgraduate-admission-descr {margin:30px 0 0 0; font-size:15px; line-height:1.5em; font-weight:300; color:#000000}
+.postgraduate-admission-descr {margin:30px 0 0 0; font-size:15px; line-height:1.5em; font-weight:300}
 .postgraduate-admission-descr p {margin:10px 0 0 0; padding:0}
 .postgraduate-admission-descr strong {font-weight:normal}
 
@@ -1413,7 +1417,7 @@ h2+.postgraduate-admission-blocks {margin:30px 0 0 0}
     .postgraduate-admission-programms a:first-child {margin:0}
 }
 
-.postgraduate-text {margin:60px 0 0 0; font-weight:300; font-size:15px; line-height:1.5em; color:#000000}
+.postgraduate-text {margin:60px 0 0 0; font-weight:300; font-size:15px; line-height:1.5em; color:#666666}
 .postgraduate-text p > a,
 .postgraduate-text li > a {color:#002B5D; text-decoration:none; font-weight:normal}
 .postgraduate-text p > a:hover,
@@ -1444,10 +1448,10 @@ h2+.postgraduate-admission-blocks {margin:30px 0 0 0}
     .postgraduate-text-header a {margin:20px 0 0 0}
 }
 
-.postgraduate-contacts {margin:80px 0 0 0; display:flex; padding:30px; justify-content:space-between; background:rgba(68, 170, 220, 0.1)}
+.postgraduate-contacts {margin:80px 0 0 0; display:flex; padding:30px; justify-content:space-between; background:rgba(68, 170, 220, 0.1); color:#000000}
 .postgraduate-contacts-title {font-weight:500; font-size:24px; line-height:1em}
 .postgraduate-contacts-address {margin:20px 0 0 0; font-size:20px; line-height:1.5em; font-weight:normal}
-.postgraduate-contacts-block {margin:10px 0 0 0; display:flex; font-weight:300; font-size:15px; line-height:1.5em; color:#000000}
+.postgraduate-contacts-block {margin:10px 0 0 0; display:flex; font-weight:300; font-size:15px; line-height:1.5em}
 .postgraduate-contacts-block a {color:#000000; text-decoration:none}
 .postgraduate-contacts-block:first-child {margin:0}
 .postgraduate-contacts-block-title {min-width:55px; margin:0 10px 0 0}
