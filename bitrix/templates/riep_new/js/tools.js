@@ -357,4 +357,16 @@ $(document).ready(function() {
         curBlock.find('.postgraduate-admission-block-content').slideToggle();
     });
 
+    $('.monographs-item').each(function() {
+        var curItem = $(this);
+        curItem.find('.monographs-item-detail').before('<div class="monographs-item-info-link-mobile">' + curItem.find('.monographs-item-info-link').html() + '</div>');
+        curItem.find('.monographs-item-authors').prepend('<div class="monographs-item-info-img-mobile">' + curItem.find('.monographs-item-info-img').html() + '</div>');
+    });
+
+    $('.monographs-item-title').click(function() {
+        var curItem = $(this).parents().filter('.monographs-item');
+        curItem.toggleClass('open');
+        curItem.find('.monographs-item-detail').slideToggle();
+    });
+
 });
