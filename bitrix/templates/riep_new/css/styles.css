@@ -1613,7 +1613,7 @@ h2+.postgraduate-admission-blocks {margin:30px 0 0 0}
 .monographs-item-info-img-mobile {display:none}
 
 @media screen and (min-width:1170px) {
-    .monographs-item-detail {display:block !important}
+    .monographs-item-detail {display:block !important; height:auto !important}
 }
 
 @media screen and (max-width:1169px) {
